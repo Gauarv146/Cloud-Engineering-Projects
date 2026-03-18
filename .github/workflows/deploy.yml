@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync portfolio-website/ s3://cloud-portfolio-static-website --delete
+           aws s3 sync static-website-ci-cd/ s3://cloud-portfolio-static-website --delete
